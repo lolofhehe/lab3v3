@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns:h="http://java.sun.com/jsf/html" xmlns:ui="http://java.sun.com/jsf/facelets">
+
+
+<ui:include src="header.xhtml" />
+<h:outputScript library="js" name="jquery-3.4.1.min.js"/>
+<h:body>
+    <div id="index-info" class="absolute-center" style="width: 50%">
+        <div class="header" align="center">
+            Юров Максим Алексеевич<br/>
+            Вариант 4545
+        </div>
+        <div class="label" align="center">
+            <canvas id="time-canvas" width="400" height="400">boomer browser</canvas><br/>
+            Текущая дата: <span id="date-span"/>
+            <h:form>
+                <h:commandButton styleClass="button" value="Основная страница" action="main?faces-redirect=true"/>
+            </h:form>
+        </div>
+    </div>
+   <h:outputScript library="js" name="index.js"/>
+</h:body>
+</html>

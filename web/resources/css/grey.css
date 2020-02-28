@@ -1,0 +1,80 @@
+.header {
+    font: 16pt fantasy;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.centered {
+    text-align: center;
+    margin: auto auto;
+}
+
+.label {
+    font: 14pt sans-serif;
+}
+
+table {
+    width: 70%;
+    border: 10px solid grey;
+}
+
+.highlight-node tbody tr:first-child {
+    color: gold;
+}
+
+.bordered {
+    border: 3px solid black;
+}
+
+.button {
+    width: 20%;
+    background-color: transparent;
+    font: 12pt Impact, fantasy;
+    color: black
+}
+
+.button:hover {
+    background-color: #CEC;
+}
+
+.textfield {
+    background-color: #6a6866;
+    width: 90%;
+    font: 12pt sans-serif;
+    color: black;
+    text-align: center;
+}
+
+td {
+    margin: 10px
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: black;
+}
+
+a:hover {
+    color: #3344FF;
+}
+
+.spinner{
+    background-color: #6a6866;
+    font: 12pt sans-serif;
+    color: black;
+    text-align: center;
+}
+
+.absolute-center {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%)
+}
+
+body {
+    background-color: #888685
+}
