@@ -16,7 +16,7 @@
             <canvas id="time-canvas" width="400" height="400">boomer browser</canvas><br/>
             Текущая дата: <span id="date-span"/>
             <h:form>
-                <h:commandButton styleClass="button" value="Основная страница" action="main?faces-redirect=true"/>
+                <h:commandButton styleClass="button" value="Основная страница" action="#{navigationController.moveToMain}"/>
             </h:form>
         </div>
     </div>
